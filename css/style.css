@@ -3,6 +3,28 @@
   padding:0px;
 }
 
+/* header */
+
+.header {
+  width: 100%;
+}
+
 li {
+  display: inline-block;
   list-style: none;
+  height:80px;
+}
+
+.list-items a {
+  text-decoration: none;
+  display: block;
+  line-height:80px;
+  font-family: "游明朝体", "Yu Mincho",YuMincho,"ヒラギノ明朝 Pro W6","Hiragino Mincho Pro","小塚明朝R","小塚明朝 std R","Kozuka Mincho std","HGS明朝E","ＭＳ Ｐ明朝",serif;
+  color:rgb(61, 61, 61);
+}
+
+img {
+  width:200px;
+  height:80px;
+  float: left;
 }
