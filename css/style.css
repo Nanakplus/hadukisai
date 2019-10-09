@@ -19,10 +19,30 @@ body {
   width: 100%;
 }
 
+h1 {
+  height:80px;
+  display: inline-block;
+}
+
+h1 a {
+  font-family:serif;
+  font-weight:400;
+  text-decoration: none;
+  color:#3c3c3c;
+  line-height: 80px;
+
+}
+
 .inner {
-  padding: 18px 0;
-  width:50%;
+  padding: 10px 0;
+  width:55%;
   margin: 0 auto;
+  text-align: right;
+}
+
+
+.header-list {
+  display: inline-block;
 }
 
 li {
@@ -34,7 +54,6 @@ li {
 
 .list-items a {
   text-decoration: none;
-  display: block;
   line-height:80px;
   font-family: "游明朝体", "Yu Mincho",YuMincho,"ヒラギノ明朝 Pro W6","Hiragino Mincho Pro","小塚明朝R","小塚明朝 std R","Kozuka Mincho std","HGS明朝E","ＭＳ Ｐ明朝",serif;
   color:rgb(61, 61, 61);
@@ -43,12 +62,12 @@ li {
 }
 
 .list-items a:hover {
-  text-decoration: underline;
   transition: all 3s;
+  border-bottom: 1px solid block;
 }
 
-img {
-  width:178px;
-  height:80px;
+h1 {
+  height:100%;
+  display: inline-block;
   float: left;
 }
